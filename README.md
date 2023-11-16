@@ -1,4 +1,4 @@
-# desafio-elfos-atlanti
+# Plataforma-Gerenciamento-de-Eventos-Cultarais-Avanti.
 # Plataforma de Gerenciamento de Eventos 
 Bem vindo a plataforma para gerenciamento de eventos, a plataforma permitirá que os organizadores de eventos criem e listem eventos, enquanto os participantes podem explorar, pesquisar e filtrar eventos com base em categorias, locais e datas.
 
