@@ -11,7 +11,7 @@ Verificar se tem o Node.js e o PostgreSQL instalados em sua máquina.
 3. Configure o seu banco de dados: 
 3.1 Crie o banco de dados no POstgresSQL.
 3.2 No arquivo .env , preencha o DATABASE_URL com suas configurações de banco de dados "DATABASE_URL="postgresql://postgres:@localhost:5432/mydb?schema=public"
-4. Execute a migração do Prisma para criar as tabelas: ultilize o comando "npx prisma migrate dev"
+4. Execute a migração do Prisma para criar as tabelas: ultilize o comando "npx prima migrate dev"
 5. Antes de iniciar o servidor ultize o comando "npx prisma generate"
 6. inicie o servidor: npm run dev
 

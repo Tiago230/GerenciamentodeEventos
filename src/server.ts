@@ -1,6 +1,8 @@
 // Importando as dependências necessárias
 import express from 'express';
-import router  from './routes';
+import router from './routes';
+// Importe o pacote cors
+import cors from 'cors';
 
 // Configurando o servidor Express
 const app = express();
@@ -8,7 +10,10 @@ const app = express();
 // Adicionando middleware para analisar JSON
 app.use(express.json());
 
-// Adicionando as rotas definidas no arquivo routes.ts
+// Adicione o middleware CORS após a criação do aplicativo
+app.use(cors());
+
+// Adicione as rotas
 app.use(router);
 
 // Configurando a porta do servidor
